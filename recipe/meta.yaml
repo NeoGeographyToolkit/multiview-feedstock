@@ -1,4 +1,4 @@
-{% set version = "asp_3.2.0" %} # dependencies synched up to this version of ASP
+{% set version = "asp3.2.0" %} # dependencies synched up to this version of ASP
 package:
     name: multiview
     version: {{ version }}
