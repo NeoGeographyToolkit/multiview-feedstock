@@ -7,7 +7,7 @@ git submodule update --init --recursive
 
 mkdir build && cd build
 
-cmake                                       \
+cmake ..                                    \
     -DCMAKE_BUILD_TYPE=Release              \
     -DMULTIVIEW_DEPS_DIR=${PREFIX}          \
     -DCMAKE_VERBOSE_MAKEFILE=ON             \
