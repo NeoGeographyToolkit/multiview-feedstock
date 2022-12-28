@@ -1,6 +1,6 @@
 {% set version = "3.5_isis7" %} # synched up to isis dependencies for this version
 package:
-    name: libgdal
+    name: multiview
     version: {{ version }}
 
 source:
@@ -17,6 +17,8 @@ requirements:
         - git
         
     host:
+        - ilmbase 2.5.5
+        - openexr 2.5.5
         - boost 1.72.0
         - boost-cpp 1.72.0
         - curl 7.86.0
@@ -38,6 +40,7 @@ requirements:
         - protobuf 4.21.11
         - python 3.9.15
         - qhull 2020.2
+        - pcl 1.11.1
         - qt 5.15.4
         - qt-main 5.15.4
         - rapidjson 1.1.0
@@ -53,6 +56,8 @@ requirements:
         - ceres-solver=1.14.0=hf302a74_15 # [linux]
         - ceres-solver=1.14.0=h636452b_15 # [osx]
     run:
+        - ilmbase 2.5.5
+        - openexr 2.5.5
         - boost 1.72.0
         - boost-cpp 1.72.0
         - curl 7.86.0
@@ -74,6 +79,7 @@ requirements:
         - protobuf 4.21.11
         - python 3.9.15
         - qhull 2020.2
+        - pcl 1.11.1
         - qt 5.15.4
         - qt-main 5.15.4
         - rapidjson 1.1.0
