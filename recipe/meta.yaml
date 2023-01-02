@@ -4,7 +4,7 @@ package:
     version: {{ version }}
 
 source:
-  git_url: git@github.com:oleg-alexandrov/MultiView.git
+  git_url: git@github.com:NeoGeographyToolkit/MultiView.git
 
 build:
     number: 0
