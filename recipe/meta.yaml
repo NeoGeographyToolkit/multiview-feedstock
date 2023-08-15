@@ -47,6 +47,7 @@ requirements:
         - suitesparse 5.10.1
         - superlu 5.2.2
         - eigen 3.4.0
+        - mesalib
         - tbb=2021.7.0=h924138e_1         # [linux] # precise version is important
         - tbb-devel=2021.7.0=h924138e_1   # [linux] # precise version is important
         - tbb=2021.7.0=hb8565cd_1         # [osx]   # precise version is important
@@ -55,7 +56,6 @@ requirements:
         - ceres-solver=1.14.0=h636452b_15 # [osx]   # must use Eigen 3.4.0
         - mesa-libgl-cos6-x86_64          # [linux] 
         - xorg-libxmu                     # [linux]
-        - mesalib                         # [linux]
 
     run:
         - ilmbase 2.5.5
@@ -88,6 +88,7 @@ requirements:
         - suitesparse 5.10.1
         - superlu 5.2.2
         - eigen 3.4.0
+        - mesalib
         - tbb=2021.7.0=h924138e_1         # [linux] # precise version is important
         - tbb-devel=2021.7.0=h924138e_1   # [linux] # precise version is important
         - tbb=2021.7.0=hb8565cd_1         # [osx]   # precise version is important
@@ -96,7 +97,6 @@ requirements:
         - ceres-solver=1.14.0=h636452b_15 # [osx]   # must use Eigen 3.4.0
         - mesa-libgl-cos6-x86_64          # [linux] 
         - xorg-libxmu                     # [linux]
-        - mesalib                         # [linux]
 
 test:
 
