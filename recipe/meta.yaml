@@ -5,6 +5,7 @@ package:
 
 source:
   git_url: git@github.com:NeoGeographyToolkit/MultiView.git
+# Note: No tag here; will compile the latest
 
 build:
     number: 0
@@ -56,6 +57,10 @@ requirements:
         - ceres-solver=1.14.0=h636452b_15 # [osx]   # must use Eigen 3.4.0
         - mesa-libgl-cos6-x86_64          # [linux] 
         - xorg-libxmu                     # [linux]
+        - xorg-libice=1.1.1=hd590300_0    # [linux]
+        - xorg-libsm=1.2.4=h7391055_0     # [linux]
+        - mysql-libs=8.0.28=h28c427c_2    # [linux] 
+        - mysql-common=8.0.28=haf5c9bc_2  # [linux] 
 
     run:
         - ilmbase 2.5.5
@@ -97,6 +102,10 @@ requirements:
         - ceres-solver=1.14.0=h636452b_15 # [osx]   # must use Eigen 3.4.0
         - mesa-libgl-cos6-x86_64          # [linux] 
         - xorg-libxmu                     # [linux]
+        - xorg-libice=1.1.1=hd590300_0    # [linux]
+        - xorg-libsm=1.2.4=h7391055_0     # [linux]
+        - mysql-libs=8.0.28=h28c427c_2    # [linux] 
+        - mysql-common=8.0.28=haf5c9bc_2  # [linux] 
 
 test:
 
