@@ -51,8 +51,8 @@ requirements:
         - mesalib
         - tbb=2021.7.0=h924138e_1         # [linux] # precise version is important
         - tbb-devel=2021.7.0=h924138e_1   # [linux] # precise version is important
-        - tbb=2021.10.0=h1c7c39f_0    # [osx]   # precise version is important
-        - tbb-devel=2021.10.0=h1c7c39f_0  # [osx]   # precise version is important 
+        - tbb=2021.10.0.custom_asp        # [osx]   # precise version is important
+        - tbb-devel=2021.10.0.custom_asp  # [osx]   # precise version is important 
         - ceres-solver=1.14.0=hf302a74_15 # [linux] # must use Eigen 3.4.0
         - ceres-solver=1.14.0=h636452b_15 # [osx]   # must use Eigen 3.4.0
         - mesa-libgl-cos6-x86_64          # [linux]
@@ -96,8 +96,8 @@ requirements:
         - mesalib
         - tbb=2021.7.0=h924138e_1         # [linux] # precise version is important
         - tbb-devel=2021.7.0=h924138e_1   # [linux] # precise version is important
-        - tbb=2021.10.0=h1c7c39f_0    # [osx]   # precise version is important
-        - tbb-devel=2021.10.0=h1c7c39f_0  # [osx]   # precise version is important 
+        - tbb=2021.10.0.custom_asp        # [osx]   # precise version is important
+        - tbb-devel=2021.10.0.custom_asp  # [osx]   # precise version is important 
         - ceres-solver=1.14.0=hf302a74_15 # [linux] # must use Eigen 3.4.0
         - ceres-solver=1.14.0=h636452b_15 # [osx]   # must use Eigen 3.4.0
         - mesa-libgl-cos6-x86_64          # [linux] 
