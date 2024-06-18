@@ -102,7 +102,7 @@ requirements:
 test:
 
 about:
-    home: https://github.com/oleg-alexandrov/MultiView
+    home: https://github.com/NeoGeographyToolkit/MultiView
     license: Apache II
     summary: A collection of tools for calibration of a rig of N image and/or depth+image cameras, fusion of point clouds into a mesh, and seamless texturing of meshes 
 
