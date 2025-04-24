@@ -14,7 +14,7 @@ requirements:
     build:
         - {{ compiler('c') }}
         - {{ compiler('cxx') }}
-        - cmake
+        - cmake 3.27.9
         - git
         
     host:
@@ -28,17 +28,17 @@ requirements:
         - glog 0.7.1
         - gmp 6.3.0
         - giflib 5.2.2
-        - libopencv 4.9.0
+        - libopencv 4.7.0
         - libpng 1.6.47
-        - libprotobuf 4.24.4
-        - libtiff 4.6.0
-        - llvm-openmp 20.1.2
+        - libprotobuf 3.21.12
+        - libtiff 4.5.1
+        - llvm-openmp 16.0.6
         - mpfr 4.2.1
         - numpy 1.26.4
-        - opencv 4.9.0
-        - openjpeg 2.5.2
-        - protobuf 4.24.4
-        - python 3.10.15
+        - opencv 4.7.0
+        - openjpeg 2.5.0
+        - protobuf 4.21.12
+        - python 3.11.6
         - qhull 2020.2
         - pcl 1.13.1
         - qt-main 5.15.8
@@ -48,12 +48,12 @@ requirements:
         - superlu 5.2.2
         - eigen 3.4.0
         - mesalib
-        - tbb 2022.1.0
-        - tbb-devel 2022.1.0
+        - tbb 2021.11.0
+        - tbb-devel 2021.11.0
         - ceres-solver 2.2.0
         - mysql-libs
         - mysql-common
-        - mesa-libgl-cos6-x86_64 # [linux]
+        - mesa-libgl-cos7-x86_64 # [linux]
         - xorg-libxmu # [linux] 
         - xorg-libice # [linux]
         - xorg-libsm # [linux]
@@ -69,17 +69,17 @@ requirements:
         - glog 0.7.1
         - gmp 6.3.0
         - giflib 5.2.2
-        - libopencv 4.9.0
+        - libopencv 4.7.0
         - libpng 1.6.47
-        - libprotobuf 4.24.4
-        - libtiff 4.6.0
-        - llvm-openmp 20.1.2
+        - libprotobuf 3.21.12
+        - libtiff 4.5.1
+        - llvm-openmp 16.0.6
         - mpfr 4.2.1
         - numpy 1.26.4
-        - opencv 4.9.0
-        - openjpeg 2.5.2
-        - protobuf 4.24.4
-        - python 3.10.15
+        - opencv 4.7.0
+        - openjpeg 2.5.0
+        - protobuf 4.21.12
+        - python 3.11.6
         - qhull 2020.2
         - pcl 1.13.1
         - qt-main 5.15.8
@@ -89,12 +89,12 @@ requirements:
         - superlu 5.2.2
         - eigen 3.4.0
         - mesalib
-        - tbb 2022.1.0
-        - tbb-devel 2022.1.0
+        - tbb 2021.11.0
+        - tbb-devel 2021.11.0
         - ceres-solver 2.2.0
         - mysql-libs
         - mysql-common
-        - mesa-libgl-cos6-x86_64 # [linux]
+        - mesa-libgl-cos7-x86_64 # [linux]
         - xorg-libxmu # [linux] 
         - xorg-libice # [linux]
         - xorg-libsm # [linux]
