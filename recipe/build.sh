@@ -20,6 +20,7 @@ cmake ..                                    \
     -DCMAKE_VERBOSE_MAKEFILE=ON             \
     -DCMAKE_CXX_FLAGS='-O3 -std=c++11'      \
     -DCMAKE_C_FLAGS='-O3'                   \
+    -DCMAKE_MODULE_PATH=$PREFIX/share/pcl-1.13/Modules \
     -DCMAKE_INSTALL_PREFIX=${PREFIX}        \
 	$opt
 
