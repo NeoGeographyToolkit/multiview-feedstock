@@ -13,9 +13,9 @@ build:
 requirements:
     build:
         # CGAL and OpenImageIO are failing with new clang. TBD.
-        - {{ compiler('c') }}    # ['linux']
-        - {{ compiler('cxx') }}  # ['linux']
         - clang >=16,<17         # ['osx']
+        - gcc_linux-64 >=11,<12  # [linux]
+        - gxx_linux-64 >=11,<12  # [linux]
         - cmake 3.27.9
         - git
         
