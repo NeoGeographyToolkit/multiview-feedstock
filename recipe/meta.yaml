@@ -47,6 +47,7 @@ requirements:
         - suitesparse 5.10.1
         - superlu 5.2.2
         - eigen 3.4.0
+        - vlfeat
         - mesalib
         - tbb 2021.11.0
         - tbb-devel 2021.11.0
@@ -88,6 +89,7 @@ requirements:
         - suitesparse 5.10.1
         - superlu 5.2.2
         - eigen 3.4.0
+        - vlfeat
         - mesalib
         - tbb 2021.11.0
         - tbb-devel 2021.11.0
