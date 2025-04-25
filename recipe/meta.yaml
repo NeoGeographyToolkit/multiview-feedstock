@@ -1,4 +1,4 @@
-{% set version = "asp_3.4.0_alpha" %} # dependencies synched up to this version of ISIS
+{% set version = "asp_3.5.0" %} # dependencies synched up to this version of ISIS
 package:
     name: multiview
     version: {{ version }}
