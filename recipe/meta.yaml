@@ -8,24 +8,19 @@ source:
 # Note: No tag here; will compile the latest
 
 build:
-    number: 0
+    number: 1
 
 requirements:
     build:
-        # CGAL and OpenImageIO are failing with new clang. TBD.
-        - clang >=16,<17         # ['osx']
-        - clangxx >=16,<17       # ['osx']
-        - gcc_linux-64 >=11,<12  # [linux]
-        - gxx_linux-64 >=11,<12  # [linux]
         - cmake 3.27.9
         - git
         
     host:
         # Having compilers in the host section helps sort out issues before conda-build
-        - clang >=16,<17         # ['osx']
-        - clangxx >=16,<17       # ['osx']
-        - gcc_linux-64 >=11,<12  # [linux]
-        - gxx_linux-64 >=11,<12  # [linux]
+        - c-compiler                1.9.0
+        - compilers                 1.9.0
+        - cxx-compiler              1.9.0
+        - fortran-compiler          1.9.0
         - ilmbase 2.5.5
         - openexr 2.5.5
         - boost 1.78.0
