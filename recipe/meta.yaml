@@ -54,7 +54,7 @@ requirements:
         - qhull 2020.2
         - pcl 1.13.1
         - qt-main 5.15.8
-        - rapidjson 1.1.0
+        - rapidjson 1.1.0.post20240409
         - rocksdb 8.5.3
         - suitesparse 5.10.1
         - superlu 5.2.2
@@ -100,7 +100,7 @@ requirements:
         - qhull 2020.2
         - pcl 1.13.1
         - qt-main 5.15.8
-        - rapidjson 1.1.0
+        - rapidjson 1.1.0.post20240409
         - rocksdb 8.5.3
         - suitesparse 5.10.1
         - superlu 5.2.2

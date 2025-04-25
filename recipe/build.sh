@@ -18,8 +18,8 @@ if [ "$(uname)" = "Darwin" ]; then
     cc_comp=clang
     cxx_comp=clang++
 else
-    cc_comp=gcc
-    cxx_comp=g++
+    cc_comp=x86_64-conda-linux-gnu-gcc
+    cxx_comp=x86_64-conda-linux-gnu-c++
 fi
 
 # Enforce a compiler we know to work
