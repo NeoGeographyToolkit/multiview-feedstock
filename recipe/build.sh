@@ -14,8 +14,7 @@ if [[ $target_platform =~ osx.* ]]; then
 	opt="-DTBB_LIBRARY=${PREFIX}/lib/libtbb.12.dylib -DTBB_MALLOC_LIBRARY=${PREFIX}/lib/libtbbmalloc.2.dylib"
 fi
 
-isMac=$(uname -s | grep Darwin)
-if [ "$isMac" != "" ]; then
+if [ "$(uname)" = "Darwin" ]; then
     cc_comp=clang
     cxx_comp=clang++
 else
