@@ -14,19 +14,19 @@ if [[ $target_platform =~ osx.* ]]; then
 	opt="-DTBB_LIBRARY=${PREFIX}/lib/libtbb.12.dylib -DTBB_MALLOC_LIBRARY=${PREFIX}/lib/libtbbmalloc.2.dylib"
 fi
 
-if [ "$(uname)" = "Darwin" ]; then
-    cc_comp=clang
-    cxx_comp=clang++
-else
-    cc_comp=x86_64-conda-linux-gnu-gcc
-    cxx_comp=x86_64-conda-linux-gnu-c++
-fi
+# if [ "$(uname)" = "Darwin" ]; then
+#     cc_comp=clang
+#     cxx_comp=clang++
+# else
+#     cc_comp=x86_64-conda-linux-gnu-gcc
+#     cxx_comp=x86_64-conda-linux-gnu-c++
+# fi
+    # -DCMAKE_C_COMPILER=${PREFIX}/bin/$cc_comp          \
+    # -DCMAKE_CXX_COMPILER=${PREFIX}/bin/$cxx_comp       \
 
 # Enforce a compiler we know to work
 cmake ..                                               \
     -DCMAKE_BUILD_TYPE=Release                         \
-    -DCMAKE_C_COMPILER=${PREFIX}/bin/$cc_comp          \
-    -DCMAKE_CXX_COMPILER=${PREFIX}/bin/$cxx_comp       \
     -DMULTIVIEW_DEPS_DIR=${PREFIX}                     \
     -DCMAKE_VERBOSE_MAKEFILE=ON                        \
     -DCMAKE_CXX_FLAGS='-O3 -std=c++11'                 \
