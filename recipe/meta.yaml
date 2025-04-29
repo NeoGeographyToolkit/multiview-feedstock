@@ -15,9 +15,10 @@ requirements:
         - git
         - cmake                     3.27.9
         # Compiler versions for ISIS compatibility
-        - c-compiler                1.9.0
-        - cxx-compiler              1.9.0
-        
+        - c-compiler                1.9.0 # [linux] 
+        - cxx-compiler              1.9.0 # [linux] 
+        # Multiview fails to build on Intel with clang 18
+        - clang                     17 # [osx]
     host:
         - boost 1.78.0
         - boost-cpp 1.78.0
