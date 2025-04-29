@@ -1,4 +1,4 @@
-{% set version = "asp_3.5.0" %} # dependencies synched up to this version of ISIS
+{% set version = "asp_3.6.0_alpha" %} # dependencies synched up to this version of ASP
 package:
     name: multiview
     version: {{ version }}
@@ -8,7 +8,7 @@ source:
 # Note: No tag here; will compile the latest
 
 build:
-    number: 2
+    number: 0
 
 requirements:
     build:
@@ -21,8 +21,6 @@ requirements:
         - fortran-compiler          1.9.0
         
     host:
-        - ilmbase 2.5.5
-        - openexr 2.5.5
         - boost 1.78.0
         - boost-cpp 1.78.0
         - curl 8.4.0
@@ -67,8 +65,6 @@ requirements:
         - xorg-libsm  # [linux]
 
     run:
-        - ilmbase 2.5.5
-        - openexr 2.5.5
         - boost 1.78.0
         - boost-cpp 1.78.0
         - curl 8.4.0
