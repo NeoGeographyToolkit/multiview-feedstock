@@ -18,7 +18,7 @@ requirements:
         - c-compiler                1.9.0 # [linux] 
         - cxx-compiler              1.9.0 # [linux] 
         # Multiview fails to build on Intel with clang 18
-        - clang                     17 # [osx]
+        - compilers                 1.8.0 # [osx]
     host:
         - boost 1.78.0
         - boost-cpp 1.78.0
